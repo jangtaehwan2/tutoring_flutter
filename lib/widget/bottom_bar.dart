@@ -34,16 +34,16 @@ class Bottom extends StatelessWidget {
               //   style: TextStyle(fontSize: 9),
               // ),
             ),
-            Tab(
-              icon: Icon(
-                Icons.search_rounded,
-                size: 30,
-              ),
-              // child: Text(
-              //   'saved',
-              //   style: TextStyle(fontSize: 9),
-              // ),
-            ),
+            // Tab(
+            //   icon: Icon(
+            //     Icons.search_rounded,
+            //     size: 30,
+            //   ),
+            //   // child: Text(
+            //   //   'saved',
+            //   //   style: TextStyle(fontSize: 9),
+            //   // ),
+            // ),
             Tab(
               icon: Icon(
                 Icons.account_circle_outlined,
