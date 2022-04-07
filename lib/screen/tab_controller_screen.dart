@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tutoring_flutter/widget/bottom_bar.dart';
 import 'package:tutoring_flutter/screen/home_screen.dart';
 import 'package:tutoring_flutter/screen/chat_list_screen.dart';
+import 'package:tutoring_flutter/screen/mypage_screen.dart';
 
 class TabControllerScreen extends StatefulWidget {
   const TabControllerScreen({Key? key}) : super(key: key);
@@ -21,16 +22,7 @@ class _TabControllerScreenState extends State<TabControllerScreen> {
           children: [
             HomeScreen(),
             ChatListScreen(),
-            Container(
-              child: Center(
-                child: Text('hello'),
-              ),
-            ),
-            // Container(
-            //   child: Center(
-            //     child: Text('hello'),
-            //   ),
-            // )
+            MypageScreen(),
           ],
         ),
         bottomNavigationBar: Bottom(),

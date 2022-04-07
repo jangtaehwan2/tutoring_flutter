@@ -17,6 +17,10 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Text('HomeScreen',style: TextStyle(
             color: Colors.black
           )),
+          leading: IconButton(
+            onPressed: (){},
+            icon: Icon(Icons.menu, color: Colors.black,),
+          ),
           backgroundColor: Colors.white,
         ),
         body: Container(
